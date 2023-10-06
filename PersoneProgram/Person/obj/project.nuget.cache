@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ojt88kadPInnY6W559uUXtQUJKj26UPqX5aMtUM53fQ7P3UoARl5JgRTOFLWuDE+iSVbDOpCdEJ8OY+s+NN0EA==",
+  "success": false,
+  "projectFilePath": "/home/potbush/Documenti/csharp/Person/Person.csproj",
+  "expectedPackageFiles": [
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \n  Person -> Person.",
+      "libraryId": "Person",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

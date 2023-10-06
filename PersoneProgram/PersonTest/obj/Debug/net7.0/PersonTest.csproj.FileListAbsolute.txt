@@ -1,0 +1,5 @@
+/home/potbush/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.csproj.AssemblyReference.cache
+/home/potbush/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/potbush/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.AssemblyInfoInputs.cache
+/home/potbush/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.AssemblyInfo.cs
+/home/potbush/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.csproj.CoreCompileInputs.cache
