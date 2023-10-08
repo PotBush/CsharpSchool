@@ -1,6 +1,3 @@
-//using Microsoft.VisualStudio.TestTools.UnitTesting;
-//using Person;
-
 namespace PersonTest;
 [TestClass]
 public class PersonTest
