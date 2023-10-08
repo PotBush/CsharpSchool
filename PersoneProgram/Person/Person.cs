@@ -1,3 +1,4 @@
+ 
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Person
 {
-	public class Person
+	public class PersonClass
 	{
 		//attributi
         private string _name;
@@ -15,7 +16,7 @@ namespace Person
         private int _monthOfBirth;
         private int _yearOfBirth;
 		//propieta
-        public string Naem
+        public string Name
         {
             get{return _name;}
         }
@@ -55,10 +56,13 @@ namespace Person
                         if(value>31 && value <=0)
                         {
                             throw new ArgumentException("the day is invalid");
+                        }else
+                        {
+                            _dayOfBirth = value;
                         }
                     }
                 }
-                
+
             }
         }
         private int MonthOfBirth
@@ -66,7 +70,7 @@ namespace Person
             get{return _monthOfBirth;}
             set
             {
-                if(value > 12 || value <  0)
+                if(value > 12 && value <=  0)
                 {
                     throw new ArgumentException("the mounth is invalid");
                 }
@@ -81,11 +85,14 @@ namespace Person
                 if(value < 1905 )
                 {
                     throw new ArgumentException("the year is invalid");
+                }else
+                {
+                    _yearOfBirth = value;
                 }
-                
+
             }
         }
-		public Person(string name, string surname, int dayOfBirht, int monthOfBirth, int yearOfBirth)
+		public PersonClass(string name, string surname, int dayOfBirht, int monthOfBirth, int yearOfBirth)
         {
             _name = name;
             _surname = surname;
@@ -97,6 +104,10 @@ namespace Person
 		//metodi
         public bool LeapYearVerificatoin(int year)
         {
+            if(year<YearOfBirth)
+            {
+                throw new Exception("the actual year isn't valid");
+            }
             bool leapYear = false;
             if(year%100 == 0)
             {
@@ -113,12 +124,14 @@ namespace Person
             }
             return leapYear;
         }
-        private int CalculateAge(int day, int month, int year)
+        public int CalculateAge(int day, int month, int year)
         {
-            int age = 0;
-            if(LeapYearVerificatoin(year))
+            if(year<YearOfBirth)
             {
-                if(MonthOfBirth < month)
+                throw new Exception("the actual year isn't valid");
+            }
+            int age = 0;
+            if(MonthOfBirth < month)
                 {
                     age = year - YearOfBirth;
                 }else
@@ -136,10 +149,8 @@ namespace Person
                         age = year - YearOfBirth-1;
                     }
                 }
-                
-            }
             return age;
-            
+
         }
         public bool VerifyOverAge(int day, int month, int year)
         {

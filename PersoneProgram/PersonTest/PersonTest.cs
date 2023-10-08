@@ -1,12 +1,15 @@
-namespace PersonTest;
-[TestClass]
-public class PersonTest
+using Person;
+namespace PesonTest
 {
-    [TestMethod]
-    public void Enter_WithInvalidDay()
+    [TestClass]
+    public class PersonTest
     {
+        [TestMethod]
+        public void Enter_WithInvalidDay()
+        {
+            
+        }
 
-    }
     [TestMethod]
     public void Entre_WithInvalidMounth()
     {
@@ -32,20 +35,20 @@ public class PersonTest
     {
 
     }
-    [TestMethod]
-    public void CalculateAge_CorectDate()
-    {
+        [TestMethod]
+        public void CalculateAge_CorectDate()
+        {
 
-    }
-    [TestMethod]
-    public void Corectuality_OverAge()
-    {
+        }
+        [TestMethod]
+        public void Corectuality_OverAge()
+        {
 
+        }
+        [TestMethod]
+        public void Corectuality_PreSchool()
+        { 
+        }
     }
-    [TestMethod]
-    public void Corectuality_PreSchool()
-    {
-        
-    }
-
+    
 }

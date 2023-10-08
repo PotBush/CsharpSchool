@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/potbush/Documenti/csharp/Person/Person.csproj": {}
+    "/home/xd/Documenti/csharp/Person/Person.csproj": {}
   },
   "projects": {
-    "/home/potbush/Documenti/csharp/Person/Person.csproj": {
+    "/home/xd/Documenti/csharp/Person/Person.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/potbush/Documenti/csharp/Person/Person.csproj",
+        "projectUniqueName": "/home/xd/Documenti/csharp/Person/Person.csproj",
         "projectName": "Person",
-        "projectPath": "/home/potbush/Documenti/csharp/Person/Person.csproj",
-        "packagesPath": "/home/potbush/.nuget/packages/",
-        "outputPath": "/home/potbush/Documenti/csharp/Person/obj/",
+        "projectPath": "/home/xd/Documenti/csharp/Person/Person.csproj",
+        "packagesPath": "/home/xd/.nuget/packages/",
+        "outputPath": "/home/xd/Documenti/csharp/Person/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/potbush/.nuget/NuGet/NuGet.Config"
+          "/home/xd/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -25,11 +25,7 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {
-              "/home/potbush/Documenti/csharp/Person/Person.csproj": {
-                "projectPath": "/home/potbush/Documenti/csharp/Person/Person.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

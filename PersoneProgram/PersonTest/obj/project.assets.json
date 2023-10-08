@@ -1905,9 +1905,6 @@
       "Person/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Person": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Person.dll": {}
         },
@@ -6791,19 +6788,19 @@
     ]
   },
   "packageFolders": {
-    "/home/potbush/.nuget/packages/": {}
+    "/home/xd/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/potbush/Documenti/csharp/PersonTest/PersonTest.csproj",
+      "projectUniqueName": "/home/xd/Documenti/csharp/PersonTest/PersonTest.csproj",
       "projectName": "PersonTest",
-      "projectPath": "/home/potbush/Documenti/csharp/PersonTest/PersonTest.csproj",
-      "packagesPath": "/home/potbush/.nuget/packages/",
-      "outputPath": "/home/potbush/Documenti/csharp/PersonTest/obj/",
+      "projectPath": "/home/xd/Documenti/csharp/PersonTest/PersonTest.csproj",
+      "packagesPath": "/home/xd/.nuget/packages/",
+      "outputPath": "/home/xd/Documenti/csharp/PersonTest/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/potbush/.nuget/NuGet/NuGet.Config"
+        "/home/xd/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -6815,8 +6812,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/home/potbush/Documenti/csharp/Person/Person.csproj": {
-              "projectPath": "/home/potbush/Documenti/csharp/Person/Person.csproj"
+            "/home/xd/Documenti/csharp/Person/Person.csproj": {
+              "projectPath": "/home/xd/Documenti/csharp/Person/Person.csproj"
             }
           }
         }
@@ -6873,16 +6870,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \n  PersonTest -> Person -> Person.",
-      "libraryId": "Person",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -5,24 +5,22 @@
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Person >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
-    "/home/potbush/.nuget/packages/": {}
+    "/home/xd/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/potbush/Documenti/csharp/Person/Person.csproj",
+      "projectUniqueName": "/home/xd/Documenti/csharp/Person/Person.csproj",
       "projectName": "Person",
-      "projectPath": "/home/potbush/Documenti/csharp/Person/Person.csproj",
-      "packagesPath": "/home/potbush/.nuget/packages/",
-      "outputPath": "/home/potbush/Documenti/csharp/Person/obj/",
+      "projectPath": "/home/xd/Documenti/csharp/Person/Person.csproj",
+      "packagesPath": "/home/xd/.nuget/packages/",
+      "outputPath": "/home/xd/Documenti/csharp/Person/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/potbush/.nuget/NuGet/NuGet.Config"
+        "/home/xd/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -33,11 +31,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/home/potbush/Documenti/csharp/Person/Person.csproj": {
-              "projectPath": "/home/potbush/Documenti/csharp/Person/Person.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -74,16 +68,5 @@
         "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \n  Person -> Person.",
-      "libraryId": "Person",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  }
 }
