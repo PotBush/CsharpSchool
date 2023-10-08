@@ -7,10 +7,6 @@
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Person.deps.json
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Person.runtimeconfig.json
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Person
-/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.AdapterUtilities.resources.dll
-/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
-/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
-/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 /home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -105,3 +101,7 @@
 /home/xd/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.pdb
 /home/xd/Documenti/csharp/PersonTest/obj/Debug/net7.0/PersonTest.genruntimeconfig.cache
 /home/xd/Documenti/csharp/PersonTest/obj/Debug/net7.0/ref/PersonTest.dll
+/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.AdapterUtilities.resources.dll
+/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+/home/xd/Documenti/csharp/PersonTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
