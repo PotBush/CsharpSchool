@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HMHwyakmu3/5YBPMIMtMIzmZHUfTyhIAKhyD+4ENeVB5Sl2cSqY58bsZPazxv/daEYBpRfPE7WOwSOZJWcsnRQ==",
+  "success": true,
+  "projectFilePath": "/home/potbush/Documenti/csharp/Dice/Dice.csproj",
+  "expectedPackageFiles": [
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
