@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GyOGuev+8JpbYO/jch0gBaGsGz8/Gh4ZTSb0L5eDwDEK7/tQPg/b3AsOWTgkQAtW6lrwoEA4nTAHK88OgblgDg==",
+  "success": true,
+  "projectFilePath": "/home/potbush/Documenti/csharp/ProgramDice/Dado/Dado.csproj",
+  "expectedPackageFiles": [
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

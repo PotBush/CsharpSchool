@@ -1,0 +1,30 @@
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/bin/Debug/net7.0/Dado.exe
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/bin/Debug/net7.0/Dado.deps.json
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/bin/Debug/net7.0/Dado.runtimeconfig.json
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/bin/Debug/net7.0/Dado.dll
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/bin/Debug/net7.0/Dado.pdb
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.csproj.AssemblyReference.cache
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.AssemblyInfoInputs.cache
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.AssemblyInfo.cs
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.csproj.CoreCompileInputs.cache
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.dll
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/refint/Dado.dll
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.pdb
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/Dado.genruntimeconfig.cache
+C:/Users/sebastiano.francia/Documents/vs 2022/Dado/obj/Debug/net7.0/ref/Dado.dll
+/home/potbush/Documenti/csharp/ProgramDice/Dado/bin/Debug/net7.0/Dado
+/home/potbush/Documenti/csharp/ProgramDice/Dado/bin/Debug/net7.0/Dado.deps.json
+/home/potbush/Documenti/csharp/ProgramDice/Dado/bin/Debug/net7.0/Dado.runtimeconfig.json
+/home/potbush/Documenti/csharp/ProgramDice/Dado/bin/Debug/net7.0/Dado.dll
+/home/potbush/Documenti/csharp/ProgramDice/Dado/bin/Debug/net7.0/Dado.pdb
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.csproj.AssemblyReference.cache
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.GeneratedMSBuildEditorConfig.editorconfig
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.AssemblyInfoInputs.cache
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.AssemblyInfo.cs
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.csproj.CoreCompileInputs.cache
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.dll
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/refint/Dado.dll
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.pdb
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/Dado.genruntimeconfig.cache
+/home/potbush/Documenti/csharp/ProgramDice/Dado/obj/Debug/net7.0/ref/Dado.dll
