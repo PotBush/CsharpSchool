@@ -1,12 +1,13 @@
+ 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Person
+namespace NotPerson
 {
-	internal class Person
+	public class Person
 	{
 		//attributi
         private string _name;
@@ -15,11 +16,11 @@ namespace Person
         private int _monthOfBirth;
         private int _yearOfBirth;
 		//propieta
-        public string Naem
+        public string Name
         {
             get{return _name;}
         }
-        public string Surnaem
+        public string Surname
         {
             get{return _surname;}
         }
@@ -28,13 +29,40 @@ namespace Person
             get{return _dayOfBirth;}
             set
             {
-                if(value <= 28 || value <= 29 || value <= 30 || value <= 31 && value > 0)
+                if(MonthOfBirth == 2)
                 {
-                    _dayOfBirth = value;
+                    if(LeapYearVerificatoin(YearOfBirth)){
+                        if(value>29 && value <=0)
+                        {
+                            throw new ArgumentException("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(value>28 && value <=0)
+                        {
+                            throw new ArgumentException("the day is invalid");
+                        }
+                    }
                 }else
                 {
-                    throw new ArgumentException("the day is invalid");
+                    if(MonthOfBirth == 4 || MonthOfBirth == 6 || MonthOfBirth == 9 || MonthOfBirth == 11)
+                    {
+                        if(value>30 && value <=0)
+                        {
+                            throw new ArgumentException("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(value>31 && value <=0)
+                        {
+                            throw new ArgumentException("the day is invalid");
+                        }else
+                        {
+                            _dayOfBirth = value;
+                        }
+                    }
                 }
+
             }
         }
         private int MonthOfBirth
@@ -42,7 +70,7 @@ namespace Person
             get{return _monthOfBirth;}
             set
             {
-                if(value > 12 || value <  0)
+                if(value > 12 && value <=  0)
                 {
                     throw new ArgumentException("the mounth is invalid");
                 }
@@ -54,11 +82,14 @@ namespace Person
             get{return _yearOfBirth;}
             set
             {
-                if(value < 1905 /*|| value > DateOnly*/)
+                if(value < 1905 )
                 {
                     throw new ArgumentException("the year is invalid");
+                }else
+                {
+                    _yearOfBirth = value;
                 }
-                
+
             }
         }
 		public Person(string name, string surname, int dayOfBirht, int monthOfBirth, int yearOfBirth)
@@ -71,21 +102,183 @@ namespace Person
 
         }
 		//metodi
-        public bool LeapYearVerificatoin(int year)
+        private bool LeapYearVerificatoin(int year)
         {
-            return 
+            if(year<YearOfBirth)
+            {
+                throw new Exception("the actual year isn't valid");
+            }
+            bool leapYear = false;
+            if(year%100 == 0)
+            {
+                if(year%400 == 0)
+                {
+                    leapYear = true;
+                }
+            }else
+            {
+                if(year%4 == 0)
+                {
+                    leapYear = true;
+                }
+            }
+            return leapYear;
         }
         public int CalculateAge(int day, int month, int year)
         {
-            return
+            if(year<YearOfBirth)
+            {
+                throw new Exception("the curent year isn't valid");
+            }
+            if(month > 12 && month <=  0)
+                {
+                    throw new Exception("the mounth is invalid");
+                }
+            if(month == 2)
+                {
+                    if(LeapYearVerificatoin(year)){
+                        if(day>29 && day <=0)
+                        {
+                            throw new ArgumentException("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>28 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }else
+                {
+                    if(month == 4 || month == 6 || month == 9 || month == 11)
+                    {
+                        if(day>30 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>31 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }
+            int age = 0;
+            if(MonthOfBirth < month)
+                {
+                    age = year - YearOfBirth;
+                }else
+                {
+                    if(month == MonthOfBirth)
+                    {
+                        if(DayOfBirht <= day)
+                        {
+                            age = year - YearOfBirth;
+                        }else
+                        {
+                            age = year - YearOfBirth-1;
+                        }
+                    }else{
+                        age = year - YearOfBirth-1;
+                    }
+                }
+            return age;
+
         }
-        public bool VerifyOverAge()
+        public bool VerifyOverAge(int day, int month, int year)
         {
-            return
+            if(year<YearOfBirth)
+            {
+                throw new Exception("the curent year isn't valid");
+            }
+            if(month > 12 && month <=  0)
+                {
+                    throw new Exception("the mounth is invalid");
+                }
+            if(month == 2)
+                {
+                    if(LeapYearVerificatoin(year)){
+                        if(day>29 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>28 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }else
+                {
+                    if(month == 4 || month == 6 || month == 9 || month == 11)
+                    {
+                        if(day>30 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>31 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }
+            bool overAge = false;
+            if(CalculateAge(day, month, year)>=18)
+            {
+                overAge = true;
+            }
+            return overAge;
         }
-        public bool VerifyPreSchoolAge()
+        public bool VerifyPreSchoolAge(int day, int month, int year)
         {
-            return  
+            if(year<YearOfBirth)
+            {
+                throw new Exception("the curent year isn't valid");
+            }
+            if(month > 12 && month <=  0)
+                {
+                    throw new Exception("the mounth is invalid");
+                }
+            if(month == 2)
+                {
+                    if(LeapYearVerificatoin(year)){
+                        if(day>29 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>28 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }else
+                {
+                    if(month == 4 || month == 6 || month == 9 || month == 11)
+                    {
+                        if(day>30 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }else
+                    {
+                        if(day>31 && day <=0)
+                        {
+                            throw new Exception("the day is invalid");
+                        }
+                    }
+                }
+            bool preSchoolAge = false;
+            if(CalculateAge(day, month, year)<=5)
+            {
+                preSchoolAge = true;
+            }
+            return preSchoolAge;
         }
   }
 }
