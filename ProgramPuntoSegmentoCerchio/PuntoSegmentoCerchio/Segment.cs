@@ -7,16 +7,16 @@ namespace PuntoSegmentoCerchio
 {
     public class Segment
     {
-        private Point _point1;
-        private Point _point2;
+        private Point _pointA;
+        private Point _pointB;
 
         public Segment(Point point1, Point point2)
         {
 
             if (point1.Equals(point2) == false)
             {
-                _point1 = point1;
-                _point2 = point2;
+                _pointA = point1;
+                _pointB = point2;
             }
             else
             {
@@ -26,13 +26,83 @@ namespace PuntoSegmentoCerchio
 
         public double CalculateLength()
         {
-            double diffX = _point2.CoordinateX - _point1.CoordinateX;
-            double diffY = _point2.CoordinateY - _point1.CoordinateY);
+            double diffX = _pointB.X - _pointA.X;
+            double diffY = _pointB.Y - _pointA.Y;
 
             return Math.Sqrt((diffX * diffX) + (diffY * diffY));
         }
 
-        public double checksPuntBelongsSegment (Point)
+        public bool checksPuntBelongsSegment (Point pointC)
+        {
+            int Xc = pointC.X;
+            int Yc = pointC.Y;
+            int Xa = _pointA.X;
+            int Ya = _pointA.Y;
+            int Xb = _pointB.X;
+            int Yb = _pointB.Y;
+
+            bool temp = false;
+
+            if((Xc-Xa)*(Yb-Ya)-(Yc-Ya)*(Xb-Xa)==0) // se pointC si trova sullaretta y=m-q+c -> di equazione (x - xa)(yb - ya) - (y - ya)(xb - xa) = 0
+            {
+                if(Xa==Xb && Xb==Xc)
+                {
+                    if(Ya > Yb)
+                    {
+                        if(Yc < Ya && Yc > Yb)
+                        {
+                            temp = true;
+                        }
+                        
+                    }
+                    else
+                    {
+                        if(Ya < Yb)
+                        {
+                            if(Yc > Ya && Yc < Yb)
+                            {
+                                temp = true;
+                            }
+                        }
+                    }
+                }
+                
+                if(Xa < Xb)
+                {
+                    if(Xc > Xa && Xc < Xb)
+                    {
+                        temp = true;
+                    }
+                }
+                else
+                {
+                    if(Xa > Xb)
+                    {
+                        if(Xc < Xa && Xc > Xb)
+                        {
+                            temp = true;
+                        }
+                    }
+                }
+            }
+
+            return temp;
+        }
+
+
+        public override bool Equals(object? obj)
+        {
+            Segment s = (Segment)obj;
+                if (_pointA.Equals(s._pointA) && _pointB.Equals(s._pointB))
+                    return true;
+                return false;
+            
+        }
+
+        public override string ToString()
+        {
+            return $"({_pointA.ToString()})({_pointB.ToString()};)"; 
+        }
     }
 }
 

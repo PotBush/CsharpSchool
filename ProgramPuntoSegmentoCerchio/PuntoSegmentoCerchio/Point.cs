@@ -7,19 +7,24 @@ namespace PuntoSegmentoCerchio
 {
     public class Point
     {
-        private double _coordinateX;
-        private double _coordinateY;
+        private int _coordinateX;
+        private int _coordinateY;
 
-        public double CoordinateX
+        public int X
         {
             get { return _coordinateX; }
             set { _coordinateX = value; }
         }
-        public double CoordinateY { get { return _coordinateY; } set { _coordinateY = value; } }
-        public Point(double coordinateX, double coordinateY)
+        public int Y 
+        { 
+            get { return _coordinateY; } 
+            set { _coordinateY = value; } 
+        }
+
+        public Point(int coordinateX, int coordinateY)
         {
-            CoordinateX = coordinateX;
-            CoordinateY = coordinateY;
+            X = coordinateX;
+            Y = coordinateY;
         }
 
         //campo calcolato --> proprietà di sola lettura
@@ -29,19 +34,19 @@ namespace PuntoSegmentoCerchio
             {
                 int position;
 
-                if (CoordinateX > 0 && CoordinateY > 0)
+                if (X > 0 && Y > 0)
                 {
                     position = 1;
                 }
-                else if (CoordinateX < 0 && CoordinateY > 0)
+                else if (X < 0 && Y > 0)
                 {
                     position = 2;
                 }
-                else if (CoordinateX < 0 && CoordinateY < 0)
+                else if (X < 0 && Y < 0)
                 {
                     position = 3;
                 }
-                else if (CoordinateX > 0 && CoordinateY < 0)
+                else if (X > 0 && Y < 0)
                 {
                     position = 4;
                 }
@@ -54,31 +59,28 @@ namespace PuntoSegmentoCerchio
             }
         }
 
-        public void translateX(double newX)
+        public void translateX(int newX)
         {
-            CoordinateX += newX;
+            X += newX;
         }
-        public void translateY(double newY)
+        public void translateY(int newY)
         {
-            CoordinateY += newY;
+            Y += newY;
         }
 
-        //ridefinisco (override) il comportamento del metodo Equals  nel caso in cui gli oggetto da confrontare siano Point
+        //ridefinisco (override) il comportamento del metodo Equals
         public override bool Equals(object? obj)
         {
-            try
-            {
-                //trasformo obj in un punto
-                Point p = (Point)obj;
-                if (CoordinateX == p.CoordinateX && CoordinateY == p.CoordinateY)
+            Point p = (Point)obj;
+                if (X == p.X && Y == p.Y)
                     return true;
                 return false;
+            
+        }
 
-            }
-            catch (Exception ex)
-            {
-                throw;
-            }
+        public override string ToString()
+        {
+            return $"({X};{Y})";
         }
 
     }

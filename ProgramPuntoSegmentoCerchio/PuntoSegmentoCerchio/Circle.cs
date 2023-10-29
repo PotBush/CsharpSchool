@@ -10,6 +10,14 @@ namespace PuntoSegmentoCerchio
         private Point _centre;
         private double _radius;
 
+        public double Radius
+        {
+            get{return _radius;}
+        }
+        public Point Center
+        {
+            get{return _centre;}
+        }
         public Circle(Point centre, double radius)
         {
             _centre = centre;
@@ -22,6 +30,19 @@ namespace PuntoSegmentoCerchio
         public double CalculateArea()
         {
             return _radius * _radius * Math.PI;
+        }
+
+        public override bool Equals(object? obj)
+        {
+            Circle c = (Circle)obj;
+                if (_radius == c.Radius && _centre.Equals(c.Center)==true)
+                    return true;
+                return false;
+        }
+
+        public override string ToString()
+        {
+            return $"r={_radius}; center={_centre.ToString()}"; 
         }
     }
 }
