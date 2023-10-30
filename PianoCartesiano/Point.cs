@@ -21,7 +21,7 @@ namespace PianoCartesiano
             set { _y = value; }
         }
 
-        public Point(int coordinateX, int coordinateY)
+        public Point(int coordinateX=0, int coordinateY=0)
         {
             X = coordinateX;
             Y = coordinateY;
@@ -83,15 +83,35 @@ namespace PianoCartesiano
 
         public void DrowingPoint(cartesianPlane c)
         {
-            if(Quadrant() == 1)
+            if (Quadrant() == 1)
             {
-                c.WriteAt("■", c.OrigCol + _x, c.OrigRow + _y);
+                c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
             }
-            
-            
-            
-            
-            
+            else
+            {
+                if(Quadrant() == 2)
+                {
+                    c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
+                }
+                else
+                { 
+                    if(Quadrant() == 3)
+                    {
+                        if (Quadrant() == 3)
+                        {
+                            c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
+                        }
+                        else
+                        {
+                            if(Quadrant() == 4)
+                            {
+                                c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
+                            }
+                        }
+                    }    
+                }
+            }       
+                        
         }
 
     }

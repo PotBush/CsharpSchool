@@ -107,18 +107,80 @@ namespace PuntoSegmentoCerchio
 
         public void DrowingSegment(cartesianPlane c)
         {
-            for(int i = 0; i < CalculateLength(); i++)
+            _pointA.DrowingPoint(c);
+            _pointB.DrowingPoint(c);
+
+            if(_pointA.X == _pointB.X)
             {
-                _pointA.DrowingPoint(c);
-                _pointB.DrowingPoint(c);
+                int tempY = _pointA.Y;
 
-                
-
-                for (int x = _pointA.X; x < _pointB.X; x++ )
+                while(tempY != _pointB.Y)
                 {
-                    for( int y = _pointA.Y;  y < _pointB.Y; y++ ) 
+                    c.WriteAt("■", c.OrigCol + _pointA.X, c.OrigRow - tempY);
+                    tempY++;
+                }
+            }
+            else
+            {
+                if(_pointA.Y == _pointB.Y)
+                {         
+                    int tempX = _pointA.X;     
+                    while(tempX != _pointB.X)
                     {
-                        c.WriteAt("■", x, y);
+                        c.WriteAt("■", c.OrigCol + tempX, c.OrigRow - _pointA.Y);
+                        tempX++;
+                    }
+                }
+                else
+                {
+                    if(_pointA.X < _pointB.X && _pointA.Y < _pointB.Y)
+                    {
+                        Point temp = new Point(_pointA.X, _pointA.Y);
+                        while(temp.X != _pointB.X && temp.Y != _pointB.Y)
+                        {
+                            c.WriteAt("■", c.OrigCol + temp.X, c.OrigRow - temp.Y);
+                            temp.X++;
+                            temp.Y++;
+                        }
+                    }
+                    else
+                    {
+                        if(_pointA.X < _pointB.X && _pointA.Y > _pointB.Y)
+                        {
+                            Point temp = new Point(_pointA.X, _pointA.Y);
+                            while(temp.X != _pointB.X)
+                            {
+                               c.WriteAt("■", c.OrigCol + temp.X, c.OrigRow - temp.Y);
+                               temp.X++;
+                               temp.Y--;
+                            }
+                        }
+                        else
+                        {
+                            if(_pointA.X > _pointB.X && _pointA.Y < _pointB.Y)
+                            {
+                                Point temp = new Point(_pointB.X, _pointB.Y);
+                                while(temp.X != _pointA.X)
+                                {
+                                   c.WriteAt("■", c.OrigCol + temp.X, c.OrigRow - temp.Y);
+                                   temp.X++;
+                                   temp.Y++;
+                                }
+                            }
+                            else
+                            {
+                                if(_pointA.X > _pointB.X && _pointA.Y > _pointB.Y)
+                                {
+                                    Point temp = new Point(_pointB.X, _pointB.Y);
+                                    while(temp.X != _pointA.X)
+                                    {
+                                      c.WriteAt("■", c.OrigCol + temp.X, c.OrigRow - temp.Y);
+                                      temp.X++;
+                                      temp.Y++;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
