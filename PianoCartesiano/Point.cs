@@ -83,7 +83,7 @@ namespace PianoCartesiano
 
         public void DrowingPoint(cartesianPlane c)
         {
-            if(Quadrant( == "1")
+            if(Quadrant() == 1)
             {
                 c.WriteAt("■", c.OrigCol + _x, c.OrigRow + _y);
             }
