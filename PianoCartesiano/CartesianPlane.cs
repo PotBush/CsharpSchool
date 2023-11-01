@@ -62,18 +62,18 @@ namespace PianoCartesiano
             {
                 if (i == _origX)
                 {
-                    WriteAt("+", _origX, _origY);
+                    WriteAt("┼", _origX, _origY);
                 }
                 else
                 {
-                    WriteAt("―", i, _origY);
+                    WriteAt("─", i, _origY);
                 }
             }
             for (int i = 0; i < _WindowsHeight; i++)
             {
                 if (i != _origY)
                 {
-                    WriteAt("|", _origX, i);
+                    WriteAt("│", _origX, i);
                 }
             }
         }

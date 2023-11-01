@@ -22,11 +22,15 @@ namespace PianoCartesiano
             p.DrowingPoint(c);
 
 
-            Point p1 = new Point(12,6);
-            Point p2 = new Point(18,12);
-            Segment s = new Segment(p1,p2);
+            Point pA = new Point(20,12);
+            Point pB = new Point(12,6);
+            Segment s = new Segment(pA,pB);
             Console.Clear();
             s.DrowingSegment(c);
+            //pA.DrowingPoint(c);
+            //pB.DrowingPoint(c);
+
+
 
             Point a1 = new Point(2,3);
             Point a2 = new Point(25,3);
