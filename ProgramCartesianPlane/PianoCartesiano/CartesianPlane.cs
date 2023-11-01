@@ -40,44 +40,6 @@ namespace PianoCartesiano
             _origX = origCol;
             _origY = origRow;
 
-        }
-        public void WriteAt(string s, int x, int y)
-        {
-
-            try
-            {
-                Console.SetCursorPosition(x, y);
-                Console.Write(s);
-            }
-            catch (ArgumentOutOfRangeException e)
-            {
-                Console.Clear();
-                Console.WriteLine(e.Message);
-            }
-        }
-
-        public void WriteAxes()
-        {
-            for (int i = 0; i < _windowsWidht; i++)
-            {
-                if (i == _origX)
-                {
-                    WriteAt("┼", _origX, _origY);
-                }
-                else
-                {
-                    WriteAt("─", i, _origY);
-                }
-            }
-            for (int i = 0; i < _WindowsHeight; i++)
-            {
-                if (i != _origY)
-                {
-                    WriteAt("│", _origX, i);
-                }
-            }
-        }
-
-
+        }      
     }
 }

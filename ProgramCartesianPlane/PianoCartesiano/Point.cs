@@ -80,40 +80,6 @@ namespace PianoCartesiano
         {
             return $"({X};{Y})";
         }
-
-        public void DrowingPoint(cartesianPlane c)
-        {
-            if (Quadrant() == 1)
-            {
-                c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
-            }
-            else
-            {
-                if(Quadrant() == 2)
-                {
-                    c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
-                }
-                else
-                { 
-                    if(Quadrant() == 3)
-                    {
-                        if (Quadrant() == 3)
-                        {
-                            c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
-                        }
-                        else
-                        {
-                            if(Quadrant() == 4)
-                            {
-                                c.WriteAt("■", c.OrigCol + _x, c.OrigRow - _y);
-                            }
-                        }
-                    }    
-                }
-            }       
-                        
-        }
-
     }
 }
 

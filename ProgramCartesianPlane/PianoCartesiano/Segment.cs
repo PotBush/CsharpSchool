@@ -11,7 +11,16 @@ namespace PuntoSegmentoCerchio
         private Point _pointStart;
         private Point _pointEnd;
 
-        public Point 
+        public Point Start
+        {
+            get{ return _pointStart; }
+        }
+
+        public Point End
+        {
+            get{ return _pointEnd; }
+        }
+        
         public Segment(Point point1, Point point2)
         {
 
