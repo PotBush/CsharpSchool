@@ -8,30 +8,23 @@ namespace PianoCartesiano
         static void Main(string[] args)
         {
             Drawer d = new Drawer();
-            cartesianPlane c = new cartesianPlane(51, 51, 26, 26);
+            cartesianPlane c = new cartesianPlane(Console.WindowWidth,Console.WindowWidth);
 
-            //Console.SetWindowSize(c.WindowsWidht, c.WindowsWidht);
+//            Console.SetWindowSize(c.WindowsWidht, c.WindowsHeight);
 
+            d.WriteAxes(c);
 
             Point p = new Point(2,2);
             d.DrowingPoint(c,p);
             
-            p.translateX(1);
-            Console.Clear();
-            d.DrowingPoint(c,p);
-            
-            p.translateY(1);
-            Console.Clear();
-            d.DrowingPoint(c,p);
-
 
             Point pA = new Point(25, 3);
-            Point pB = new Point(32, 10);
+            Point pB = new Point(30, 10);
             Segment s = new Segment(pA,pB);
-            Console.Clear();
+            //Console.Clear();
             d.DrowingSegment(c,s);
             
-
+            /*
 
             Point a1 = new Point(15,3);
             Point a2 = new Point(25,3);
@@ -55,8 +48,9 @@ namespace PianoCartesiano
             Segment s4 = new Segment(d1, d2);
             d.DrowingSegment(c, s4);
 
-            d.WriteAxes(c);
-
+            
+            */
+            Console.ReadKey();
         }
     }
 }

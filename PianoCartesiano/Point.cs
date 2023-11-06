@@ -28,28 +28,28 @@ namespace PianoCartesiano
         }
 
         //campo calcolato --> proprietà di sola lettura
-        public int Quadrant()
+        public Position Quadrant()
         {      
-            int position;
+            Position position;
             if (X > 0 && Y > 0)
             {
-                position = 1;
+                position = (Position)1;
             }
             else if (X <= 0 && Y >= 0)
             {
-                position = 2;
+                position = (Position)2;
             }
             else if (X < 0 && Y < 0)
             {
-                position = 3;
+                position = (Position)3;
             }
             else if (X > 0 && Y < 0)
             {
-                position = 4;
+                position = (Position)4;
             }
             else
             {
-                throw new Exception("Il punto non è in nessun quadrante");
+                position = (Position)0;
             }
 
             return position;
@@ -79,6 +79,35 @@ namespace PianoCartesiano
         public override string ToString()
         {
             return $"({X};{Y})";
+        }
+        public enum Position
+        {
+            orig,
+            quadrant1,
+            quadrant2,
+            quadrant3,
+            quadrant4,
+            axesX,
+            axesY
+        }
+        public string PositionPoint(cartesianPlane c)
+        {
+            string returned;
+            if(X == c.OrigX && Y == 0)
+            {
+                returned = $"{(Position)5}";
+            }else
+            {
+                if(X == 0 && Y == c.OrigY)
+                {
+                    returned = $"{(Position)6}";
+                }else
+                {
+                    returned = $"{Quadrant}";
+                }
+            }
+
+            return returned;
         }
     }
 }

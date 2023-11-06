@@ -1,6 +1,7 @@
 ﻿using PuntoSegmentoCerchio;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -28,56 +29,28 @@ namespace PianoCartesiano
         {
             for (int i = 0; i < c.WindowsWidht; i++)
             {
-                if (i == c.OrigCol)
+                if (i == c.OrigY)
                 {
-                    WriteAt("┼", c.OrigCol, c.OrigRow);
+                    WriteAt("┼", c.OrigX, c.OrigY);
                 }
                 else
                 {
-                    WriteAt("─", i, c.OrigRow);
+                    WriteAt("─", i, c.OrigY);
                 }
             }
             for (int i = 0; i < c.WindowsHeight; i++)
             {
-                if (i != c.OrigRow)
+                if (i != c.OrigX)
                 {
-                    WriteAt("│", c.OrigCol, i);
+                    WriteAt("│", c.OrigX, i);
                 }
             }
         }
 
         public void DrowingPoint(cartesianPlane c, Point p)
         {
-            if (p.Quadrant() == 1)
-            {
-                WriteAt("■", c.OrigCol + p.X, c.OrigRow - p.Y);
-            }
-            else
-            {
-                if(p.Quadrant() == 2)
-                {
-                    WriteAt("■", c.OrigCol + p.X, c.OrigRow - p.Y);
-                }
-                else
-                { 
-                    if(p.Quadrant() == 3)
-                    {
-                        WriteAt("■", c.OrigCol + p.X, c.OrigRow - p.Y);
-                    }
-                    else
-                    {
-                        if(p.Quadrant() == 4)
-                        {
-                            WriteAt("■", c.OrigCol + p.X, c.OrigRow - p.Y);
-                        }
-                        else
-                        {
-                                WriteAt("■", c.OrigCol, c.OrigRow);
-                        }
-                    }    
-                }
-            }       
-                        
+            WriteAt("■", c.OrigY + p.X, c.OrigX - p.Y);
+            WriteAt($"{p}", c.OrigY + p.X+1, c.OrigX - p.Y+1);
         }
 
         public void DrowingSegment(cartesianPlane c, Segment s)
@@ -85,6 +58,7 @@ namespace PianoCartesiano
             DrowingPoint(c, s.Start);
             DrowingPoint(c, s.End);
 
+            //se il segmento è parallel all'asse y
             if (s.Start.X == s.End.X)
             {
                 Point temp = new Point(s.Start.X, s.Start.Y);
@@ -96,6 +70,7 @@ namespace PianoCartesiano
             }
             else
             {
+                //se il segmento è parallelo all'asse delle x
                 if (s.Start.Y == s.End.Y)
                 {
                     Point temp = new Point(s.Start.X, s.Start.Y);
@@ -107,11 +82,15 @@ namespace PianoCartesiano
                 }
                 else
                 {
+                    //il segmento è obli
                     double m = (double)(s.End.Y - s.Start.Y) / (s.End.X - s.Start.X);
                     double q = s.Start.Y - (m * s.Start.X);
-                    for (Point temp = new Point(s.Start.X + 1, s.Start.Y); temp.X < s.End.X; temp.X++)
-                    {
-                        temp.Y = Convert.ToInt32((m * temp.X) + q);
+                    Point temp;
+                    //calcolo tutt i punti sul segmento
+                    for (int x = s.Start.X+1; x < s.End.X; x++)
+                    {                       
+                        int y  = Convert.ToInt32((m * x) + q);
+                        temp = new Point(x, y);
                         DrowingPoint(c, temp);
                     }
                 }

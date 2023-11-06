@@ -68,8 +68,9 @@ namespace PuntoSegmentoCerchio
             int Yb = _pointEnd.Y;
 
             bool temp = false;
-
-            if ((Xc - Xa) * (Yb - Ya) - (Yc - Ya) * (Xb - Xa) == 0) // se pointC si trova sullaretta y=m-q+c -> di equazione (x - xa)(yb - ya) - (y - ya)(xb - xa) = 0
+            // se pointC si trova sulla retta y=m-q+c ->
+            // di equazione (x - xa)(yb - ya) - (y - ya)(xb - xa) = 0
+            if ((Xc - Xa) * (Yb - Ya) - (Yc - Ya) * (Xb - Xa) == 0) 
             {
                 if (Xa == Xb && Xb == Xc)
                 {
@@ -117,7 +118,8 @@ namespace PuntoSegmentoCerchio
 
 
         public override bool Equals(object? obj)
-        {
+        {           
+            if (obj == null || !(obj is Segment)) return false;
             Segment s = (Segment)obj;
             if (_pointStart.Equals(s._pointStart) && _pointEnd.Equals(s._pointEnd))
                 return true;

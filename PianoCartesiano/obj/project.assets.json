@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/xd/.nuget/packages/": {}
+    "/home/potbush/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/xd/Documenti/GitHub/CsharpSchool/PianoCartesiano/PianoCartesiano.csproj",
+      "projectUniqueName": "/home/potbush/Documenti/GitHub/CsharpSchool/PianoCartesiano/PianoCartesiano.csproj",
       "projectName": "PianoCartesiano",
-      "projectPath": "/home/xd/Documenti/GitHub/CsharpSchool/PianoCartesiano/PianoCartesiano.csproj",
-      "packagesPath": "/home/xd/.nuget/packages/",
-      "outputPath": "/home/xd/Documenti/GitHub/CsharpSchool/PianoCartesiano/obj/",
+      "projectPath": "/home/potbush/Documenti/GitHub/CsharpSchool/PianoCartesiano/PianoCartesiano.csproj",
+      "packagesPath": "/home/potbush/.nuget/packages/",
+      "outputPath": "/home/potbush/Documenti/GitHub/CsharpSchool/PianoCartesiano/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/xd/.nuget/NuGet/NuGet.Config"
+        "/home/potbush/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
