@@ -5,6 +5,16 @@ using System.Text;
 
 namespace PianoCartesiano
 {
+    public enum Position
+        {
+            orig,
+            quadrant1,
+            quadrant2,
+            quadrant3,
+            quadrant4,
+            axesX,
+            axesY
+        }
     public class Point
     {
         private int _x;
@@ -80,16 +90,7 @@ namespace PianoCartesiano
         {
             return $"({X};{Y})";
         }
-        public enum Position
-        {
-            orig,
-            quadrant1,
-            quadrant2,
-            quadrant3,
-            quadrant4,
-            axesX,
-            axesY
-        }
+        
         public string PositionPoint(cartesianPlane c)
         {
             string returned;

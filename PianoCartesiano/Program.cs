@@ -1,5 +1,4 @@
-﻿using PuntoSegmentoCerchio;
-using System;
+﻿using System;
 namespace PianoCartesiano
 {
 
@@ -8,23 +7,33 @@ namespace PianoCartesiano
         static void Main(string[] args)
         {
             Drawer d = new Drawer();
-            cartesianPlane c = new cartesianPlane(Console.WindowWidth,Console.WindowWidth);
+            cartesianPlane c = new cartesianPlane(101, 51);
 
-//            Console.SetWindowSize(c.WindowsWidht, c.WindowsHeight);
+            //Console.SetWindowSize(c.WindowsWidht, c.WindowsWidht);
 
-            d.WriteAxes(c);
 
-            Point p = new Point(2,2);
+            Point p = new Point(5,8);
+            d.DrowingPoint(c,p);
+
+            square sq = new square(5,p);
+            d.DrowingSquare(c,sq);
+            /*
+            p.translateX(1);
+            Console.Clear();
             d.DrowingPoint(c,p);
             
+            p.translateY(1);
+            Console.Clear();
+            d.DrowingPoint(c,p);
+
 
             Point pA = new Point(25, 3);
-            Point pB = new Point(30, 10);
+            Point pB = new Point(32, 10);
             Segment s = new Segment(pA,pB);
-            //Console.Clear();
+            Console.Clear();
             d.DrowingSegment(c,s);
             
-            /*
+
 
             Point a1 = new Point(15,3);
             Point a2 = new Point(25,3);
@@ -47,10 +56,10 @@ namespace PianoCartesiano
             Point d2 = new Point(28, 12);
             Segment s4 = new Segment(d1, d2);
             d.DrowingSegment(c, s4);
-
-            
             */
-            Console.ReadKey();
+
+            d.WriteAxes(c);
+
         }
     }
 }

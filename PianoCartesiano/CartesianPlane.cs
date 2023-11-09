@@ -10,7 +10,6 @@ namespace PianoCartesiano
     {
         private int _windowsWidht;
         private int _windowsHeight;
-        
 
         public int WindowsWidht
         {
@@ -22,20 +21,20 @@ namespace PianoCartesiano
             get { return _windowsHeight; }
         }
 
-        public int OrigY
-        {
-            get { return _windowsHeight/2; }
-        }
-
         public int OrigX
         {
             get { return _windowsWidht/2; }
         }
 
+        public int OrigY
+        {
+            get { return _windowsHeight/2; }
+        }
+
         public cartesianPlane(int windowsWidht, int windowsHeight)
         {
             _windowsWidht = windowsWidht;
-            _windowsHeight = windowsHeight;           
+            _windowsHeight = windowsHeight;
 
         }      
     }
