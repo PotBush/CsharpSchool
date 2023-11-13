@@ -1,0 +1,6 @@
+{
+  "format": "YYYY/MM/DD MMMM",
+  "autorun": false,
+  "folder": "_Diario_/",
+  "template": "_Diario_/modello"
+}

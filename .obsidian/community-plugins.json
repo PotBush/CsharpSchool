@@ -1,5 +1,15 @@
 [
+  "dataview",
+  "obsidian-tasks-plugin",
+  "open-vscode",
+  "obsidian-minimal-settings",
+  "obsidian-mind-map",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "obsidian-icon-folder",
   "table-editor-obsidian",
+  "calendar",
+  "obsidian-day-planner",
+  "cm-editor-syntax-highlight-obsidian",
   "emoji-shortcodes",
-  "obsidian-icon-folder"
+  "emoji-tags-titler"
 ]

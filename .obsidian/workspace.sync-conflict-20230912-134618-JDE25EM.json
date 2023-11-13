@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "b4efcfa7b2e59d0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "f78bf3c30854d2b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fc84e85d1a2e469",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scuola/Home-Work.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b69eaa9dda8affbc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a0f09c12dcdf236",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1fd69557ff9495b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ce2af32d92e3787",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#console",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85475bb892547b78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60c81eaac919eb00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cb08f9f070423218",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1be8b0e4af2cc52",
+        "type": "tabs",
+        "dimension": 32.84023668639053,
+        "children": [
+          {
+            "id": "1e7fc555b3cb4229",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "94b2e92cad035726",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "964f3e5dc11c49b8",
+        "type": "tabs",
+        "dimension": 67.15976331360946,
+        "children": [
+          {
+            "id": "26239a8863ee81dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "48463f1143af526a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb82a42a2ba58ef0",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 367.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "daily-notes:Open today's daily note": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "google-bard-assistant:Open Bard": false
+    }
+  },
+  "active": "b69eaa9dda8affbc",
+  "lastOpenFiles": [
+    "Scuola/Home-Work.md",
+    "Scuola/Home-Work.sync-conflict-20230904-173919-IE7W2EU.md",
+    "_Diario_/2023/09/04 September.md",
+    "_Diario_/2023/09",
+    "_Diario_/2023/08/31 August.md",
+    "Tech/OS/Linux🐧/MindStream - Black.md",
+    "Tech/OS/Linux🐧/~syncthing~MindStream - Black.md.tmp",
+    "_Diario_/2023/08/30 August.md",
+    "Tech/OS/Linux🐧/config file/Fish shell.md",
+    "Tech/OS/Linux🐧/config file",
+    "Tech/OS/Linux🐧/config file/hyprland.conf.md",
+    "Tech/OS/Linux🐧/Xtab.md",
+    "Tech/OS/Linux🐧/config file/rofi.rasi.md",
+    "Tech/OS/Linux🐧/OsFlow.md",
+    "Tech/OS/Linux🐧/config file/kitty.cong.md",
+    "Tech/OS/Linux🐧/config file/Installation guide - ArchWiki.md",
+    "_/OS/Linux 🐧/Black.md",
+    "_/OS/Linux 🐧/Xtab.md",
+    "_/OS/Windows/Windows11 Flow.md",
+    "_Diario_/2023/08/29 August.md",
+    "_/OS/Linux 🐧/Directory Linux (...).md",
+    "_/OS/Linux 🐧/Fish shell.md",
+    "_/OS/Linux 🐧/Installation guide - ArchWiki.md",
+    "_/OS/Linux 🐧/OsFlow.md",
+    "shop list.md",
+    "Note.md",
+    "Untitled.md",
+    "Home-Work.md",
+    "_Diario_/2023/08/01 Agosto.md",
+    "_/T obsidian/~syncthing~Titolo test.sync-conflict-20230821-181626-IE7W2EU.md.tmp",
+    "Scuola/~syncthing~i pilastri della terra in breve.sync-conflict-20230821-181630-IE7W2EU.md.tmp",
+    "_Diario_/2023/08/~syncthing~02 agosto.sync-conflict-20230821-181626-IE7W2EU.md.tmp",
+    "OS/Linux 🐧/~syncthing~Fish shell.md.tmp",
+    "_Diario_/2023/08/~syncthing~01 agosto.sync-conflict-20230821-181628-IE7W2EU.md.tmp",
+    "Scuola/~syncthing~i pilastri della terra.sync-conflict-20230802-210900-IE7W2EU.md.tmp",
+    "OS/~syncthing~file.md.tmp",
+    "OS/Linux 🐧/Senza nome 2.canvas",
+    "OS/Linux 🐧/Senza nome 1.canvas",
+    "OS/Linux 🐧/Senza nome.canvas",
+    "Senza nome.canvas",
+    "Scuola/IMG_20230402_184646.jpg",
+    "Pasted Image 20230626151850_334.png",
+    "ARCH_A_a.jpg",
+    "wantedPot.png",
+    "Senza nome 1.canvas"
+  ]
+}

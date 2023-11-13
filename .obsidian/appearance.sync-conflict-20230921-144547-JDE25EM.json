@@ -1,0 +1,10 @@
+{
+  "accentColor": "#3daee9",
+  "baseFontSize": 14,
+  "interfaceFontFamily": "Arial",
+  "cssTheme": "Yue",
+  "theme": "obsidian",
+  "nativeMenus": false,
+  "baseFontSizeAction": true,
+  "showViewHeader": true
+}

@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "b4efcfa7b2e59d0c",
+    "type": "split",
+    "children": [
+      {
+        "id": "1ba9db49ffbd29a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "59d6cc8d025ae748",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tech/wiki/linguaggi/Chsarp.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8971795a416b4b84",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a0f09c12dcdf236",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1fd69557ff9495b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ce2af32d92e3787",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": " ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "85475bb892547b78",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "60c81eaac919eb00",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 322.51103591918945
+  },
+  "right": {
+    "id": "cb08f9f070423218",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1be8b0e4af2cc52",
+        "type": "tabs",
+        "dimension": 37.89359391965255,
+        "children": [
+          {
+            "id": "1e7fc555b3cb4229",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "94b2e92cad035726",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "63137ced2c4ffc1b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "964f3e5dc11c49b8",
+        "type": "tabs",
+        "dimension": 62.106406080347455,
+        "children": [
+          {
+            "id": "26239a8863ee81dd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Tech/wiki/linguaggi/Chsarp.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "48463f1143af526a",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "bb82a42a2ba58ef0",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 332.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "command-palette:Apri riquadro comandi": false,
+      "audio-recorder:Avvia/ferma registrazione": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+    }
+  },
+  "active": "59d6cc8d025ae748",
+  "lastOpenFiles": [
+    "_Diario_/2023/09/28 settembre.md",
+    "shop list.md",
+    "Tech/wiki/Installation guide - ArchWiki.md",
+    "IKEA.md",
+    "Scuola/i pilastri della terra/i pilastri della terra.md",
+    "Scuola/patheon slide.md",
+    "Scuola/Orari anno scolastico 23-24.md",
+    "Scuola/Home-Work.md",
+    "_Diario_/2023/09/15 September.md",
+    "_Diario_/2023/09/15 settembre.md",
+    "Scuola/i pilastri della terra/i pilastri della terra in breve.md",
+    "Scuola/i pilastri della terra/i pilastri della terra.sync-conflict-20230821-181628-IE7W2EU.md",
+    "Scuola/i pilastri della terra/i pilastri della terra in breve.sync-conflict-20230821-181630-IE7W2EU.md",
+    "Scuola/i pilastri della terra/i pilastri della terra.sync-conflict-20230802-210900-IE7W2EU.md",
+    "_Diario_/2023/09/14 September.md",
+    "Tech/wiki/comandi linux.md",
+    "Tech/wiki/Docker.md",
+    "_Diario_/2023/09/13 September.md",
+    "Tech/wiki/image/dosker.png",
+    "Tech/wiki/Fish shell.md",
+    "Avatar.md",
+    "Link.md",
+    "_Diario_/2023/09/12 September.md",
+    "_Diario_/2023/09/11 September.md",
+    "Tech/wiki",
+    "Tech/OS note/Linux🐧/Directory Linux (...).md",
+    "Tech/OS note/Linux🐧/MindStream - Black.md",
+    "Tech/OS note/Linux🐧/Rice linux.md",
+    "Tech/wiki/image",
+    "Tech/wiki/RAID",
+    "Tech/wiki/image/RAID.png",
+    "Tech/wiki/image/2023-09-11_21-12.png",
+    "Tech/wiki/image/2023-09-11_21-11_2.png",
+    "Tech/wiki/image/2023-09-11_21-11_1 1.png",
+    "Tech/wiki/image/2023-09-11_21-11_1.png",
+    "Tech/wiki/image/2023-09-11_21-11.png",
+    "Tech/wiki/image/2023-09-11_21-10_1 1.png",
+    "Tech/wiki/image/2023-09-11_21-10_1.png",
+    "Tech/wiki/image/2023-09-11_21-10.png",
+    "Non confermato 434772.crdownload",
+    "Scuola/Inglese/2° Identity B1 to B1+",
+    "Scuola/Inglese",
+    "Tech/OS/Linux🐧/~syncthing~MindStream - Black.md.tmp",
+    "Tech/OS note/Linux🐧/config file",
+    "_/T obsidian/~syncthing~Titolo test.sync-conflict-20230821-181626-IE7W2EU.md.tmp",
+    "Scuola/~syncthing~i pilastri della terra in breve.sync-conflict-20230821-181630-IE7W2EU.md.tmp",
+    "OS/Linux 🐧/Senza nome 2.canvas",
+    "OS/Linux 🐧/Senza nome 1.canvas",
+    "OS/Linux 🐧/Senza nome.canvas",
+    "Senza nome.canvas",
+    "Senza nome 1.canvas"
+  ]
+}

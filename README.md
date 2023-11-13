@@ -8,7 +8,7 @@ list of program:
  4. ProgramPuntoSegmentoCerchio
  5. ProgramSwitchesBulbs
  6. ProgramTimeAppointment
- 7.  PianoCartesiano (no drower circle)
+ 7.  PianoCartesiano (⚠️ no drower circle)
  8. ProgramResturant
 
-
+ 
