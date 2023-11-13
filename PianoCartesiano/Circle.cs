@@ -32,6 +32,20 @@ namespace PianoCartesiano
         {
             return _radius * _radius * Math.PI;
         }
+
+        public bool CheckInternalPoint(Point p) 
+        {
+            if(p.Equals(_centre)) return true;
+            Segment s = new Segment(p, _centre);
+            if(s.CalculateLength() <= Radius) return true;
+            return false;
+        }
+
+        public bool CheckConcentricCircles(Circle c)
+        {
+            if(_centre.Equals(c._centre)) return true;
+            return false;
+        }
     }
 }
 

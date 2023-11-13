@@ -49,5 +49,11 @@ namespace PianoCartesiano
             _vertexDownLeft = new Point(_vertexDownRight.X-Side,_vertexDownRight.Y);
         }
 
+        public bool CheckInternalPoint(Point p)
+        {
+            if((p.X >= _vertexDownLeft.X && p.X <= _vertexDownRight.X) && (p.Y <= _vertexTopRight.Y && p.Y >= _vertexDownRight.Y)) return true;
+            return false;
+        }
+
     }
 }

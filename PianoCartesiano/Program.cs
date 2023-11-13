@@ -16,7 +16,7 @@ namespace PianoCartesiano
             d.DrowingPoint(c,p);
 
             square sq = new square(5,p);
-            d.DrowingSquare(c,sq);
+            d.DrawingSquare(c,sq);
             /*
             p.translateX(1);
             Console.Clear();

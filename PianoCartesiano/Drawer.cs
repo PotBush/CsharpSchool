@@ -105,7 +105,7 @@ namespace PianoCartesiano
             }
         }
 
-        public void DrowingSquare(cartesianPlane c, square sq)
+        public void DrawingSquare(cartesianPlane c, square sq)
         {
             
             Segment top = new Segment(sq.VertexTopLeft, sq.VertexTopRight);
@@ -119,18 +119,10 @@ namespace PianoCartesiano
 
         }
 
-        public void DrowingCircle(cartesianPlane c, Circle circle)
+        public void DrawingCircle(cartesianPlane c, Circle circle)
         {
-            Point X = new Point(circle.Centre.X+(int)circle.Radius, circle.Centre.Y+(int)circle.Radius);
-
-            square aq = new square((int)circle.Radius*2, X);
-            
-            Segment XY = new Segment(aq.VertexTopLeft, aq.VertexDownLeft);
-
-
-            Point metaX = new Point(X.X-((int)XY.CalculateLength() / 2), X.Y);
-            
-            Point g = new Point(circle.Centre.X+)
+            Point temp = new Point(circle.Centre.X+(int)circle.Radius, circle.Centre.Y);
+            for(indexer i; i>)
         }
         
     }

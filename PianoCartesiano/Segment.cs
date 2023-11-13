@@ -57,7 +57,7 @@ namespace PianoCartesiano
             return Math.Sqrt((diffX * diffX) + (diffY * diffY));
         }
 
-        public bool checksPuntBelongsSegment(Point pointC)
+        public bool ChecksPuntBelongsSegment(Point pointC)
         {
             int Xc = pointC.X;
             int Yc = pointC.Y;
