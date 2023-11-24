@@ -8,7 +8,9 @@ list of program:
  4. ProgramPuntoSegmentoCerchio
  5. ProgramSwitchesBulbs
  6. ProgramTimeAppointment
- 7.  PianoCartesiano (⚠️ no drower circle)
+ 7. ProgramCartesianPlane (⚠️ no drower circle)
  8. ProgramResturant
- 9. test
+ 9. ChineseMorra
+    9.1 ChineseMorra V1
+    9.2 ChineseMorra V2
  

@@ -35,7 +35,7 @@ namespace RestaurantSpaces
             {
                 checkDay(dayNumber);
                 _dailyTakings[dayNumber] = recepit;
-            }catch (Exception e) 
+            }catch (Exception) 
             {
                 throw;
             }
@@ -47,7 +47,7 @@ namespace RestaurantSpaces
             {
                 checkDay(dayNumber);
                 _dailyTakings[dayNumber] = (int)DayType.future_day;
-            }catch(Exception e)
+            }catch(Exception)
             {
                 throw;
             }
@@ -59,7 +59,7 @@ namespace RestaurantSpaces
             {
                 checkDay(dayNumber);
                 _dailyTakings[dayNumber] = (int)DayType.cole;
-            }catch( Exception e)
+            }catch( Exception)
             {
                 throw;
             }

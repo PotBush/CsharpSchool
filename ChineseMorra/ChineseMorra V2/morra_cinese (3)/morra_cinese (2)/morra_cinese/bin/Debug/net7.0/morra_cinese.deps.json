@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "morra_cinese/1.0.0": {
+        "runtime": {
+          "morra_cinese.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "morra_cinese/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

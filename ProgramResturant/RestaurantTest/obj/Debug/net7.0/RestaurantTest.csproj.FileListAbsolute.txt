@@ -101,3 +101,7 @@
 /home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/obj/Debug/net7.0/RestaurantTest.pdb
 /home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/obj/Debug/net7.0/RestaurantTest.genruntimeconfig.cache
 /home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/obj/Debug/net7.0/ref/RestaurantTest.dll
+/home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/bin/Debug/net7.0/it/Microsoft.TestPlatform.AdapterUtilities.resources.dll
+/home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+/home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+/home/potbush/Documenti/GitHub/CsharpSchool/ProgramResturant/RestaurantTest/bin/Debug/net7.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll

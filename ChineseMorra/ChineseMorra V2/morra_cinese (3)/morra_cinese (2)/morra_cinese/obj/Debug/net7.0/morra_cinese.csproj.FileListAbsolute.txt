@@ -1,0 +1,45 @@
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.exe
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.deps.json
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.runtimeconfig.json
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.AssemblyReference.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfoInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfo.cs
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.CoreCompileInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\refint\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.genruntimeconfig.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\ref\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.exe
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.deps.json
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.runtimeconfig.json
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.AssemblyReference.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfoInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfo.cs
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.CoreCompileInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\refint\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.genruntimeconfig.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\ref\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.exe
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.deps.json
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.runtimeconfig.json
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\bin\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.AssemblyReference.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfoInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.AssemblyInfo.cs
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.csproj.CoreCompileInputs.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\refint\morra_cinese.dll
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.pdb
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\morra_cinese.genruntimeconfig.cache
+C:\Users\francesco.foschi\Downloads\morra_cinese (3)\morra_cinese (2)\morra_cinese\morra_cinese\morra_cinese\obj\Debug\net7.0\ref\morra_cinese.dll
