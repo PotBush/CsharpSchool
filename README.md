@@ -13,4 +13,5 @@ list of program:
  9. ChineseMorra
     9.1 ChineseMorra V1
     9.2 ChineseMorra V2
+ 10. GuessNumber
  
