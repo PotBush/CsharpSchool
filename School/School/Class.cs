@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace School
 {
-    internal class Class
+    public class Class
     {
         private char _section;
         private int _year;
         private int _numStudents;
 
+        public char Section
+        {
+            get{ return _section; }
+        }
         public int Year
         {
             get { return _year; }
-            private set 
+            set 
             {
-                if (_year != value) throw new ArgumentException("class gose from 1 to 5");
+                if (value < 1 || value > 5) throw new ArgumentException("class gose from 1 to 5");
                 _year = value; 
             }
         }
