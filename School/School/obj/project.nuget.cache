@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WL8zzVmLarXSFCNP5KQLTzrK9/ohDlMX/4fsDDlcE+YJlcNU3HYoiibdKNgQrPk9zi6J/guGS9wfy9jtgbfpQw==",
+  "dgSpecHash": "KTgkpgKVkMGu5Eu37eX/4rQmk/MVX+QhzqcZtLqBMajWawlyyokl6rUwg3itgGSEZ1rbIz3XC6kjqf3Lc97yVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebastiano.francia\\Documents\\School\\School.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/potbush/Documenti/GitHub/CsharpSchool/School/School/School.csproj",
+  "expectedPackageFiles": [
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
   "logs": []
 }

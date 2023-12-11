@@ -10,7 +10,7 @@ namespace School
     {
         private char _section;
         private int _year;
-        private int _nStudents;
+        private int _numStudents;
 
         public int Year
         {
@@ -21,20 +21,20 @@ namespace School
                 _year = value; 
             }
         }
-        public int NStudents
+        public int NumStudents
         {
-            get { return _nStudents; }
+            get { return _numStudents; }
             private set 
             {
-                if (_nStudents < 10 || _nStudents > 35) throw new ArgumentException("the class must have at 10 students and not over 35");
-                _nStudents = value; 
+                if (_numStudents < 10 || _numStudents > 35) throw new ArgumentException("the class must have at 10 students and not over 35");
+                _numStudents = value; 
             }
         }
         public Class(char section, int year, int nStudents)
         {
             _section = section;
             _year = year;
-            _nStudents = nStudents;
+            _numStudents = nStudents;
         }
     }
 }
