@@ -1,0 +1,15 @@
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.csproj.AssemblyReference.cache
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.AssemblyInfoInputs.cache
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.AssemblyInfo.cs
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.csproj.CoreCompileInputs.cache
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\bin\Debug\net7.0\DeckItalianCards.exe
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\bin\Debug\net7.0\DeckItalianCards.deps.json
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\bin\Debug\net7.0\DeckItalianCards.runtimeconfig.json
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\bin\Debug\net7.0\DeckItalianCards.dll
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\bin\Debug\net7.0\DeckItalianCards.pdb
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.dll
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\refint\DeckItalianCards.dll
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.pdb
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\DeckItalianCards.genruntimeconfig.cache
+C:\Users\sebastiano.francia\Documents\DeckItalianCards\obj\Debug\net7.0\ref\DeckItalianCards.dll

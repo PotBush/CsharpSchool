@@ -28,17 +28,16 @@ namespace School
         public int NumStudents
         {
             get { return _numStudents; }
-            private set 
+            set 
             {
                 if (_numStudents < 10 || _numStudents > 35) throw new ArgumentException("the class must have at 10 students and not over 35");
                 _numStudents = value; 
             }
         }
-        public Class(char section, int year, int nStudents)
+        public Class(char section, int year)
         {
             _section = section;
             _year = year;
-            _numStudents = nStudents;
         }
     }
 }

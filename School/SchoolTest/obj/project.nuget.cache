@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DH2SMqSdLa7XLL2dsMBMxP/6DP4r6jVyErwkNtKTNxA1gD/fDgfnBwiDN7Y9qxPfilBH16DjwS8VuVtEQGQdMw==",
+  "dgSpecHash": "N6OIVbLW5YdbGdmno++8+XfKhZz9GjQvpoX99ZjokyuD78CMV3P38Ob5SlWQ/9AVjO0nqfpgWGnfpUj+ZBeRhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebastiano.francia\\Documents\\SchoolTest\\SchoolTest.csproj",
+  "projectFilePath": "C:\\Users\\sebastiano.francia\\Documents\\School\\SchoolTest\\SchoolTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebastiano.francia\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\sebastiano.francia\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

@@ -38,35 +38,41 @@ namespace School
             }
         }
 
-        public Plexus(string name, int classrooms, int baths, int classList)
+        public Plexus(string name, int classrooms, int baths)
         {
             _name = name;
             Classrooms = classrooms;
             Baths = baths;
-            if (classList > classrooms) throw new ArgumentException("the number of clasroom isn't corect");
-            _classList = new Class[classList];
+            _classList = new Class[0];
+            /*
+            if (classList.Length > classrooms) throw new ArgumentException("the number of clasroom isn't corect");
+            _classList = classList;
             SortClasses();
+            */
             
         }
 
-        public void SortClasses()
+        private void SortClasses()
         {
-            int temp;
+            Class temp;
             for (int i = 1; i<_classList.Length; i++)
             {
                 for(int k = 1; k<_classList.Length; k++)
                 {
                     if(_classList[k].Year < _classList[k-1].Year)
                     {
-                        temp = _classList[k-1].Year;
+                        temp = _classList[k-1];
                         _classList[k-1].Year = _classList[k].Year;
-                        _classList[k].Year = temp;
+                        _classList[k] = temp;
                     }
                 }
             }
         }
         public void AddClass(Class newClass)
         {
+            if (newClass is not Class || newClass == null) throw new ArgumentException("the new class isn't a class or is null");
+            if (_classList.Length + 1 >= _classrooms) throw new Exception("teh pleexuxs is full");
+
             Class[] temp = new Class[_classList.Length+1];
             
             for(int i=0; i<_classList.Length;i++)

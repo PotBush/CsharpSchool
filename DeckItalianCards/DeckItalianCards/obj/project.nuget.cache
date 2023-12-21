@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zV5pQI2UMp0SzsAiYbdz6R8XV1on47jw3OVj/mTB+Gd46eojxAayNX93LAW50N+1jrWo07SvwtRatpATGMJFlQ==",
+  "success": true,
+  "projectFilePath": "/home/potbush/Documenti/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
+  "expectedPackageFiles": [
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

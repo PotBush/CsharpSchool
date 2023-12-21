@@ -1,0 +1,23 @@
+Versione Console
+
+Mazzo di Carte Italiane  	(8,9,10) --> le figure
+ -40 Carte
+ -4 Semi
+	-Bastone
+	-Denara
+	-Spada
+	-Coppe
+
+ 
+Carta
+	-semi
+	-valore		--> si conforonta con un enum che indca che il valore delle figure 1-7 8,9,10
+	{-image path}
+
+Mazzo
+	-Carte[40]
+	+Mazzo()		--> le carrte sono ordinate nel costruttore
+	+ void Mescolare()
+	+Estrai una carta
+	+ToString
+	
