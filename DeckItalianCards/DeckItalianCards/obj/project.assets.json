@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/potbush/.nuget/packages/": {}
+    "/home/xd/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/potbush/Documenti/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
+      "projectUniqueName": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
       "projectName": "DeckItalianCards",
-      "projectPath": "/home/potbush/Documenti/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
-      "packagesPath": "/home/potbush/.nuget/packages/",
-      "outputPath": "/home/potbush/Documenti/CsharpSchool/DeckItalianCards/DeckItalianCards/obj/",
+      "projectPath": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
+      "packagesPath": "/home/xd/.nuget/packages/",
+      "outputPath": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/potbush/.nuget/NuGet/NuGet.Config"
+        "/home/xd/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -58,6 +58,14 @@
           {
             "name": "Microsoft.AspNetCore.App.Ref",
             "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
           }
         ],
         "frameworkReferences": {
@@ -65,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.114/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
