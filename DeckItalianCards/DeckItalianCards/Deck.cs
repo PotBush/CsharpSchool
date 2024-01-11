@@ -9,14 +9,18 @@ namespace DeckItalianCards
     internal class Deck
     {
         private Card[] _cards;
-        private int _countFirstCard;
+        private int _counterCard;
 
+        public Card[] Cards
+        {
+            get { return _cards; }
+        }
         public int CountFirstCard
         { 
-            get { return _countFirstCard; } 
+            get { return _counterCard; } 
             private set {
                 if (value < 0 || value > 40) throw new ArgumentOutOfRangeException("the value of the Count is invalid");
-                _countFirstCard = value; 
+                _counterCard = value; 
             } 
         }
 
@@ -24,6 +28,7 @@ namespace DeckItalianCards
         {
             get
             {
+                if(_counterCard >= 40) throw new Exception("the countreCard is invalid");
                 
                 Card temp = _cards[CountFirstCard];
                 _cards[CountFirstCard] = null;
@@ -36,17 +41,27 @@ namespace DeckItalianCards
         {
             get
             {
-                return _cards[CountFirstCard];
+                if(_counterCard >= 40) throw new Exception("the countreCard is invalid");
+                Card card = _cards[CountFirstCard];
+                return card;
+            }
+        }
+
+        public bool Empty
+        {
+            get
+            {
+                if(_cards[_cards.Length -1]==null ) return true;
+                return false;
             }
         }
         public Deck() 
         {
-            _countFirstCard = 0;
-            _cards = GeneratesDeck();
-            shuffleCards();
+            _counterCard = 0;
+            _cards = GenerateDeck();
         }
 
-        private Card[] GeneratesDeck()
+        private Card[] GenerateDeck()
         {
             Card[] cards = new Card[40];
             for (int i = 0; i < (int)TypeSuit.Coppe;i++)
@@ -61,13 +76,13 @@ namespace DeckItalianCards
 
 
         Random rnd = new Random();
-        private void shuffleCards()
+        public void ShuffleCards()
         {
             for (int i = 0; i < _cards.Length; i++)
             {
                 int randomPosition = rnd.Next(_cards.Length);
                 Card tmp = _cards[randomPosition];
-                _cards[randomPosition] = tmp;
+                _cards[randomPosition] = _cards[i];
                 _cards[i] = tmp;
             }
         }
@@ -79,7 +94,7 @@ namespace DeckItalianCards
             {
                 _cards[i] = _cards[i + 1];
             }
-            _cards[_cards.Length] = temp;
+            _cards[_cards.Length -1] = temp;
         }
 
 

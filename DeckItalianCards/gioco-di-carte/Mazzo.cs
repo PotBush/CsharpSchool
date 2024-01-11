@@ -58,7 +58,7 @@ namespace gioco_di_carte
                 _carte[_indice] = null;
                 _indice++;
                 return carta;
-            }  
+            }
         }
 
         public Carta VediPrimaCarta

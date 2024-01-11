@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/home/potbush/.nuget/packages/": {}
+    "/home/xd/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/potbush/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
+      "projectUniqueName": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
       "projectName": "DeckItalianCards",
-      "projectPath": "/home/potbush/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
-      "packagesPath": "/home/potbush/.nuget/packages/",
-      "outputPath": "/home/potbush/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/obj/",
+      "projectPath": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/DeckItalianCards.csproj",
+      "packagesPath": "/home/xd/.nuget/packages/",
+      "outputPath": "/home/xd/Documenti/GitHub/CsharpSchool/DeckItalianCards/DeckItalianCards/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/potbush/.nuget/NuGet/NuGet.Config"
+        "/home/xd/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"

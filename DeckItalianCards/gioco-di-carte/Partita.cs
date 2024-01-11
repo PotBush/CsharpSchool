@@ -8,13 +8,6 @@ namespace gioco_di_carte
 {
     public class Partita
     {
-        public enum DecretoPartita
-        {
-            VittoriaGiocatore1,
-            VittoriaGiocatore2,
-            Pareggio
-        }
-
         private Mazzo _mazzo;
         private Giocatore _giocatore1;
         private Giocatore _giocatore2;
@@ -69,37 +62,36 @@ namespace gioco_di_carte
         {
             Giocatore1.CarteGiocatore = DistribiusciCarte();
             Giocatore2.CarteGiocatore = DistribiusciCarte();
-            Carta carta = _mazzo.VediPrimaCarta;
-            _briscola = carta.Seme;
+            _briscola = _mazzo.VediPrimaCarta.Seme;
             _mazzo.Shift();
         }
 
-        public int VincitoreMano(Carta carta1, Carta carta2)
+        public string VincitoreMano(Carta carta1, Carta carta2)
         {
-            int giocatoreVincente;
+            string giocatoreVincente;
 
             if (carta1.Seme == carta2.Seme)
             {
                 if (carta1.Valore >  carta2.Valore)
                 {
-                    giocatoreVincente=1;
+                    giocatoreVincente = Giocatore1.Nome;
 
                 }else
                 {
-                    giocatoreVincente=2;
+                    giocatoreVincente=Giocatore2.Nome;
                 }
 
             }else if (carta2.Seme == _briscola)
             {
-                giocatoreVincente=2;
+                giocatoreVincente=Giocatore2.Nome;
             }
             else 
             {
-                giocatoreVincente = 1;
+                giocatoreVincente = Giocatore1.Nome;
             }
             
 
-            if(giocatoreVincente==1) 
+            if(giocatoreVincente == Giocatore1.Nome) 
             {
                 _giocatore1.AggiornaPunteggio(carta1);
                 _giocatore1.AggiornaPunteggio(carta2);
@@ -113,9 +105,9 @@ namespace gioco_di_carte
             return giocatoreVincente;
         }
 
-        public void PescaCarta(int giocatoreVincente)
+        public void PescaCarta(string giocatoreVincente)
         {
-            if(giocatoreVincente == 1)
+            if(giocatoreVincente == Giocatore1.Nome)
             {
                 _giocatore1.InserisciCarta(_mazzo.EstraiPrimaCarta);
                 _giocatore2.InserisciCarta(_mazzo.EstraiPrimaCarta);
@@ -126,20 +118,23 @@ namespace gioco_di_carte
             }
         }
 
-        public DecretoPartita EsitoPartita()
+        public string EsitoPartita()
         {
+            string esito;
             if (_giocatore1.PunteggioGiocatore > _giocatore2.PunteggioGiocatore)
             {
-                return DecretoPartita.VittoriaGiocatore1;
+                esito = $"Ha vinto {Giocatore1.Nome}";
 
             }else if(_giocatore2.PunteggioGiocatore> _giocatore1.PunteggioGiocatore)
             {
-                return DecretoPartita.VittoriaGiocatore2;
+                esito = $"Ha vinto {Giocatore2.Nome}";
 
-            }else
-            {
-                return DecretoPartita.Pareggio;
             }
+            else
+            {
+                esito = $"Pareggio";
+            }
+            return esito;
         }
     }
 }
