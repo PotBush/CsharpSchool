@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/Dice.csproj": {}
+    "/home/potbush/Documenti/GitHub/CsharpSchool/Matrixs/Matrixs.csproj": {}
   },
   "projects": {
-    "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/Dice.csproj": {
+    "/home/potbush/Documenti/GitHub/CsharpSchool/Matrixs/Matrixs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/Dice.csproj",
-        "projectName": "Dice",
-        "projectPath": "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/Dice.csproj",
+        "projectUniqueName": "/home/potbush/Documenti/GitHub/CsharpSchool/Matrixs/Matrixs.csproj",
+        "projectName": "Matrixs",
+        "projectPath": "/home/potbush/Documenti/GitHub/CsharpSchool/Matrixs/Matrixs.csproj",
         "packagesPath": "/home/potbush/.nuget/packages/",
-        "outputPath": "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/obj/",
+        "outputPath": "/home/potbush/Documenti/GitHub/CsharpSchool/Matrixs/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/potbush/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -51,11 +51,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.14, 7.0.14]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[7.0.14, 7.0.14]"
+              "version": "[8.0.0, 8.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -63,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HMHwyakmu3/5YBPMIMtMIzmZHUfTyhIAKhyD+4ENeVB5Sl2cSqY58bsZPazxv/daEYBpRfPE7WOwSOZJWcsnRQ==",
+  "dgSpecHash": "2F2SuqAT4+w8x6lSKQr/8vbQzOCqmepWVPkUSb6lnL5+Rrvd/e84UHS/NqykgGoStaOoDyL3O9s1RY8rZykT7w==",
   "success": true,
-  "projectFilePath": "/home/potbush/Documenti/csharp/Dice/Dice.csproj",
+  "projectFilePath": "/home/potbush/Documenti/GitHub/CsharpSchool/ProgramDice/Dice/Dice.csproj",
   "expectedPackageFiles": [
-    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.11/microsoft.aspnetcore.app.ref.7.0.11.nupkg.sha512"
+    "/home/potbush/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/home/potbush/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.14/microsoft.netcore.app.host.linux-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
