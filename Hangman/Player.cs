@@ -7,8 +7,27 @@ using System.Threading.Tasks;
 namespace Hangman
 {
     internal class Player
-    {
-        private string _name;
+    { 
+        private int _lives;
         private static int max_lives = 11;
+
+        public Player() 
+        {
+            _lives = max_lives;
+        }
+
+        public bool TakeLife()
+        {
+            if (_lives > 0)
+            {
+                _lives--;
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }

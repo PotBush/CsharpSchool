@@ -8,24 +8,32 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "/home/xd/.nuget/packages/": {}
+    "C:\\Users\\sebastiano.francia\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/xd/Scaricati/Hangman/Hangman.csproj",
+      "projectUniqueName": "C:\\Users\\sebastiano.francia\\Documents\\Hangman\\Hangman.csproj",
       "projectName": "Hangman",
-      "projectPath": "/home/xd/Scaricati/Hangman/Hangman.csproj",
-      "packagesPath": "/home/xd/.nuget/packages/",
-      "outputPath": "/home/xd/Scaricati/Hangman/obj/",
+      "projectPath": "C:\\Users\\sebastiano.francia\\Documents\\Hangman\\Hangman.csproj",
+      "packagesPath": "C:\\Users\\sebastiano.francia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sebastiano.francia\\Documents\\Hangman\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/xd/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\sebastiano.francia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -54,26 +62,15 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.16, 7.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.linux-x64",
-            "version": "[7.0.16, 7.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.16, 7.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.313\\RuntimeIdentifierGraph.json"
       }
     }
   }

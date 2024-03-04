@@ -22,18 +22,22 @@ namespace Hangman
     public partial class MainWindow : Window
     {
         private Match _match;
+        private char _ch;
         public MainWindow()
         {
             InitializeComponent();
             _match = new Match(ReadToFile());
+            lblWordGuess.Content = _match.WordGuess;
         }
-           
+        
+        
         public string[] ReadToFile()
         {
             List<string> words = new List<string>();
+
             try
             {
-                using(StreamReader sr= new StreamReader(_match.SourcePath + "parole.txt"))
+                using(StreamReader sr= new StreamReader(@"../../../Source/words.txt"))
                 {
                     string word;
                     while ((word=sr.ReadLine())!=null)
@@ -43,9 +47,36 @@ namespace Hangman
                 }
                 return words.ToArray();
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                lblError.Content = $"The file of Words could not be read:{e.Message}";
+                lblError.Content = $"The file of Words could not be read:{ex.Message}";
+                throw ex;
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if(_match.Turn(_ch) == MatchStatus.wordGuessed)
+            {
+                
+            }
+            
+            
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            lblError.Visibility = Visibility.Collapsed;
+            try
+            {
+                _ch = Convert.ToChar(txbChar.Text);
+            }
+            catch (Exception ex)
+            {
+                txbChar.Text = "";
+                lblError.Visibility= Visibility.Visible;
+                lblError.Content = $"insert a character";
             }
         }
     }
