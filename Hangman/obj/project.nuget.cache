@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "4DmTk2WtVkg9FAkWv8RJJFQOZXpo3MQY1vs7gDvy/sXqOSY3/uzS6cbC59ZSBP4hRnb/RRQLP8nSlGu2u/fncA==",
+  "success": true,
+  "projectFilePath": "/home/xd/Scaricati/Hangman/Hangman.csproj",
+  "expectedPackageFiles": [
+    "/home/xd/.nuget/packages/microsoft.netcore.app.ref/7.0.16/microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/xd/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.16/microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "/home/xd/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.16/microsoft.netcore.app.host.linux-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

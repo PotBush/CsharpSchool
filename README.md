@@ -14,4 +14,12 @@ list of program:
     9.1 ChineseMorra V1
     9.2 ChineseMorra V2
  10. GuessNumber
+ 11. ProgramCartesianPlane
+ 12. School
+ 13. DeckItalianCards
+ 14. Matrixs
+ 15. ProductManagement
+ 16. Reading&WritingFromTextFiles
+ 17. Hangman WPF
+
  
