@@ -10,10 +10,11 @@
         <Canvas.Background>
             <ImageBrush ImageSource="/Source/Background.jpg"/>
         </Canvas.Background>
-        <Label x:Name="lblError" Content="" HorizontalAlignment="Center" VerticalAlignment="Top" Height="32" Width="199" Canvas.Left="455" Canvas.Top="113" Foreground="#FFFF0808" FontSize="18"/>
-        <TextBlock Canvas.Left="395" TextWrapping="Wrap" Canvas.Top="79" Foreground="White" Text="Inserisci il carattere:" Width="223" Height="34" FontSize="24" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Label x:Name="lblError" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Height="32" Width="200" Canvas.Left="300" Canvas.Top="311" Foreground="#FFFF0808" FontSize="18"/>
 
-        <TextBox x:Name="txbChar" Canvas.Left="609" TextWrapping="Wrap" Canvas.Top="83" Width="34" BorderThickness="2,2,2,2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Background="#FF194B00" BorderBrush="White" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="20">
+        <TextBlock x:Name="lblEnterCharacter" Canvas.Left="250" TextWrapping="Wrap" Canvas.Top="272" Foreground="White" Text="enter the character:" Width="223" Height="34" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <TextBox x:Name="txbChar" Text="" Canvas.Left="458" TextWrapping="Wrap" Canvas.Top="275" Width="34" BorderThickness="2,2,2,2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Background="#FF194B00" BorderBrush="White" TextChanged="TextBox_TextChanged" Foreground="White" FontSize="20">
             <TextBox.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3.14"></Setter>
@@ -21,14 +22,14 @@
             </TextBox.Resources>
         </TextBox>
 
-        <Button Content="Guess" Canvas.Left="395" Canvas.Top="119" BorderThickness="2,2,2,2" BorderBrush="White" Background="#FF176500" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Height="32" Width="55" FontSize="18">
+        <Button Content="Guess" Canvas.Left="502" Canvas.Top="274" BorderThickness="2,2,2,2" BorderBrush="White" Background="#FF176500" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Center" Click="Button_Click" Height="32" Width="55" FontSize="18" RenderTransformOrigin="4.525,-0.242">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="3.14"></Setter>
                 </Style>
             </Button.Resources>
         </Button>
-        <Label x:Name="lblWordGuess" Content="" Canvas.Left="250" Canvas.Top="217" HorizontalContentAlignment="Center" Height="34" Width="300" Foreground="White" FontSize="22"/>
+        <Label x:Name="lblWordGuess" Content="" Canvas.Left="250" Canvas.Top="217" HorizontalContentAlignment="Center" Height="34" Width="300" Foreground="White" FontSize="22" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
     </Canvas>
 </Window>

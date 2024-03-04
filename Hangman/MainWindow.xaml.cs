@@ -27,7 +27,7 @@ namespace Hangman
         {
             InitializeComponent();
             _match = new Match(ReadToFile());
-            lblWordGuess.Content = _match.WordGuess;
+            //lblWordGuess.Content = _match.WordGuess;
         }
         
         
@@ -49,7 +49,7 @@ namespace Hangman
             }
             catch (Exception ex)
             {
-                lblError.Content = $"The file of Words could not be read:{ex.Message}";
+                //lblError.Content = $"The file of Words could not be read:{ex.Message}";
                 throw ex;
             }
         }
@@ -64,19 +64,20 @@ namespace Hangman
             
 
         }
-
+        
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            lblError.Visibility = Visibility.Collapsed;
+            //lblError.Visibility = Visibility.Collapsed;
             try
             {
-                _ch = Convert.ToChar(txbChar.Text);
+                //if (txbChar.Text == "") throw new ArgumentException("there isn't a character");
+                //_ch = Convert.ToChar(txbChar.Text);
             }
             catch (Exception ex)
             {
-                txbChar.Text = "";
-                lblError.Visibility= Visibility.Visible;
-                lblError.Content = $"insert a character";
+                //txbChar.Text = "";
+                //lblError.Visibility= Visibility.Visible;
+                //lblError.Content = $"insert a character";
             }
         }
     }
