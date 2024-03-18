@@ -8,21 +8,23 @@ namespace TemperatureEsercizio2
 {
     public class Comune
     {
-        private string _name;
+        private string _nome;
         private List<Temperatura> _temperature;
 
-        public string Name
-        { 
-            get { return _name; } 
-        }
+        public string Nome { get { return _nome; } }
 
         public Comune(string name, List<Temperatura> temperature)
         {
-            _name = name;
+            _nome = name;
             _temperature = temperature;
         }
+        public Comune(string name)
+        {
+            _nome = name;
+            _temperature = new List<Temperatura>();
+        }
 
-        public void AddTemperatura(Temperatura nuovaTemperatura)
+        public void AaggiungiTemperatura(Temperatura nuovaTemperatura)
         {
             _temperature.Add(nuovaTemperatura);
         }
@@ -31,19 +33,21 @@ namespace TemperatureEsercizio2
         /// restituisce la temperatura massima del comune
         /// </summary>
         /// <returns></returns>
-        public double? GetTemperaturaMax() 
+        public double? TemperaturaMax()
         {
-            if(_temperature.Count>0)
+            //se ci sono delle temperature
+            if (_temperature.Count > 0)
             {
-                double temperaturaMax = _temperature[0].TemperaturaMediaCelsius;
-                foreach(Temperatura t in _temperature)
+                //cerco il massimo valore tra le temperature e lo restituisco
+                double tempMax = _temperature[0].TemperaturaMedia;
+                foreach (Temperatura temperatura in _temperature)
                 {
-                    if(temperaturaMax<t.TemperaturaMediaCelsius)
+                    if (temperatura.TemperaturaMedia > tempMax)
                     {
-                        temperaturaMax = t.TemperaturaMediaCelsius;
+                        tempMax = temperatura.TemperaturaMedia;
                     }
                 }
-                return temperaturaMax;
+                return tempMax;
             }
             return null;
         }
@@ -54,14 +58,14 @@ namespace TemperatureEsercizio2
         /// <param name="anno"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentOutOfRangeException"></exception>
-        public double? GetTemperaturaAnnoX(int anno) 
+        public double? TemperaturaInAnnoX(int anno) 
         {
-            if (anno < 0 || anno < 3000) throw new ArgumentOutOfRangeException("anno non valido");
+            if (anno < 0 || anno > 3000) throw new ArgumentOutOfRangeException("anno non valido");
             foreach (Temperatura t in _temperature)
             {
                 if (anno == t.Anno)
                 {
-                    return t.TemperaturaMediaCelsius;
+                    return t.TemperaturaMedia;
                 }
             }
             return null;
@@ -72,18 +76,22 @@ namespace TemperatureEsercizio2
         /// </summary>
         /// <param name="t"></param>
         /// <returns></returns>
-        public bool VerificaTemperatura(Temperatura t)
+        public bool VerificaPresenzaTemperaturaX(Temperatura t)
         {
-            bool presenza;
             foreach (Temperatura temperature in _temperature)
             {
-                if (t.TemperaturaMediaCelsius == t.TemperaturaMediaCelsius)
+                if (temperature.Equals(t))
                 {
                     return true;
                 }
             }
             return false;
 
+        }
+
+        public override string ToString()
+        {
+            return Nome;
         }
     }
 }
